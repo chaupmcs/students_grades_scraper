@@ -1,0 +1,3 @@
+captcha_code: '76' # You DO NOT have to edit this
+cookie: {PHPSESSID: 5nm980s8uqdn5asrje8qrt65t6} # this line neither
+folder_store: /home/chauuser/KienThuc/store_aao_crawl # the path where you wanna store your result - edit this line ONLY  

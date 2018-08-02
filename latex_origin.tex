@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+
+\usepackage{vmargin}
+\setmarginsrb{20mm}{15mm}{15mm}{15mm}{0pt}{0mm}{9pt}{5mm}
+\usepackage[T1]{fontenc}                
+\usepackage{longtable}   
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{color, colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\usepackage[first=0,last=9]{lcg}
+\usepackage{tabu,booktabs}
+\usepackage[table]{xcolor}
+\newcommand{\ra}{\rand0.\arabic{rand}}
+
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{pgf}
+\usepackage{etoolbox}
+
+\usepackage[utf8x]{vietnam}
+
+\rowcolors{1}{white}{blue!10}
+
+\newcounter{row}
+\newcolumntype{L}{%
+  >{\stepcounter{row}%
+  \pgfmathtruncatemacro{\j}{int(Mod(\therow,4))}
+  \ifnum\j<2 
+    \global\rownum=1
+  \else
+    \global\rownum=0
+  \fi}%
+l}
+
+\BeforeBeginEnvironment{tabular}{\setcounter{row}{0}}
+
+\begin{document}
+
+
+
+\title{GRADE}
+\author{catbuilts}
+\date{\vspace{-5ex}}
+\maketitle
+
+\noindent
+\definecolor{lightb}{RGB}{217,224,250}
+\begin{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%replace_here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{center}
+
+\end{document}
