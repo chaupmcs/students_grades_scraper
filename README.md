@@ -1,4 +1,4 @@
-# Crawl students' grades from Bach Khoa HCM university's website (AAO) - Ver 2.1
+# Crawl students' grades from Bach Khoa HCM university's website (AAO)
 
 
 
