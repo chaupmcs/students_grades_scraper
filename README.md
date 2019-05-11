@@ -3,7 +3,7 @@
 
 
 This small program can help you check if your grades have been uploaded onto the website yet. It also helps to crawl the grades of your class automatically, then parse the result and sort it. 
-Take a look at [Here](https://github.com/catbuilts/crawl_and_parse_AAO_Grades/blob/master/main.ipynb) to have an overall view of the program.
+Take a look at [Here](https://github.com/chaupmcs/students_grades_scraper/blob/master/main.ipynb) to have an overall view of the program.
 ----------------
 Usage:
 First of all, we need to install some needed packages: 
